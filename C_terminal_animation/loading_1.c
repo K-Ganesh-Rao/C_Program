@@ -8,7 +8,7 @@ int main()
 	printf("\n");
 	printf("\n");
 	printf("\n");
-	while(1) {
+	while(1) { 
 		printf("              \\\r");
 		fflush(stdout);  // Ensures the output is immediately written to the console
 		usleep(100000);  // 100 milliseconds delay
